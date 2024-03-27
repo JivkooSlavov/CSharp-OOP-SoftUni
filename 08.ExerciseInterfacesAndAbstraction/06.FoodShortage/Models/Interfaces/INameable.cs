@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using _06.FoodShortage.Models.Interfaces;
+using System;
+
+namespace _06.FoodShortage.Models.Interfaces
+{
+    public interface INameable
+    {
+        string Name { get; }
+    }
+}
